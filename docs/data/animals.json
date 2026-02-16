@@ -57,7 +57,7 @@
       "skin_type": "skin",
       "skin_pattern": "plain",
       "speed": "moderate",
-      "aggressiveness": "aggressive",
+      "aggressiveness": "calm",
       "food": "carnivore",
       "head": "cephalopod",
       "size": "small"
@@ -786,7 +786,7 @@
   {
     "animal": "Jellyfish",
     "properties": {
-      "active_time": "nocturnal",
+      "active_time": "daywalker",
       "habitat": "sea",
       "movement": "swim",
       "legs": "many",
