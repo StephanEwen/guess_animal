@@ -82,7 +82,7 @@
     "size": "Size"
   },
   "values": {
-    "daywalker": "Diurnal",
+    "diurnal": "Diurnal",
     "nocturnal": "Nocturnal",
     "fields/savanna": "Fields or Savanna",
     "farm": "Farm",

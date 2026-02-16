@@ -82,7 +82,7 @@
     "size": "Größe"
   },
   "values": {
-    "daywalker": "Tagaktiv",
+    "diurnal": "Tagaktiv",
     "nocturnal": "Nachtaktiv",
     "fields/savanna": "Felder oder Savanne",
     "farm": "Bauernhof",

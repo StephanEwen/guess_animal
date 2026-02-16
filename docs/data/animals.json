@@ -2,7 +2,7 @@
   {
     "animal": "Horse",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "fields/savanna",
       "movement": "walk",
       "legs": "4",
@@ -18,7 +18,7 @@
   {
     "animal": "Zebra",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "fields/savanna",
       "movement": "walk",
       "legs": "4",
@@ -34,7 +34,7 @@
   {
     "animal": "Cow",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "farm",
       "movement": "walk",
       "legs": "4",
@@ -66,7 +66,7 @@
   {
     "animal": "Dog",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "fields/savanna",
       "movement": "walk",
       "legs": "4",
@@ -98,7 +98,7 @@
   {
     "animal": "Lion",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "fields/savanna",
       "movement": "walk",
       "legs": "4",
@@ -130,7 +130,7 @@
   {
     "animal": "Rhinoceros",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "fields/savanna",
       "movement": "walk",
       "legs": "4",
@@ -146,7 +146,7 @@
   {
     "animal": "Peacock",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "fields/savanna",
       "movement": "walk",
       "legs": "2",
@@ -162,7 +162,7 @@
   {
     "animal": "Fish",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "lake",
       "movement": "swim",
       "legs": "0",
@@ -194,7 +194,7 @@
   {
     "animal": "Snake",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "forrest",
       "movement": "crouch",
       "legs": "0",
@@ -210,7 +210,7 @@
   {
     "animal": "Songbird",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "forrest",
       "movement": "fly",
       "legs": "2",
@@ -226,7 +226,7 @@
   {
     "animal": "Bird of Prey",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "mountains",
       "movement": "fly",
       "legs": "2",
@@ -242,7 +242,7 @@
   {
     "animal": "Giraffe",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "fields/savanna",
       "movement": "walk",
       "legs": "4",
@@ -258,7 +258,7 @@
   {
     "animal": "Shark",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "sea",
       "movement": "swim",
       "legs": "0",
@@ -274,7 +274,7 @@
   {
     "animal": "Rabbit",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "fields/savanna",
       "movement": "walk",
       "legs": "4",
@@ -290,7 +290,7 @@
   {
     "animal": "Sheep",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "farm",
       "movement": "walk",
       "legs": "4",
@@ -306,7 +306,7 @@
   {
     "animal": "Squirrel",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "forrest",
       "movement": "walk",
       "legs": "4",
@@ -322,7 +322,7 @@
   {
     "animal": "Chicken",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "farm",
       "movement": "walk",
       "legs": "2",
@@ -338,7 +338,7 @@
   {
     "animal": "Pig",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "farm",
       "movement": "walk",
       "legs": "4",
@@ -370,7 +370,7 @@
   {
     "animal": "Mole",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "fields/savanna",
       "movement": "dig",
       "legs": "4",
@@ -402,7 +402,7 @@
   {
     "animal": "Fly",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "fields/savanna",
       "movement": "fly",
       "legs": "many",
@@ -450,7 +450,7 @@
   {
     "animal": "Brown Bear",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "forrest",
       "movement": "walk",
       "legs": "4",
@@ -466,7 +466,7 @@
   {
     "animal": "Polar Bear",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "ice",
       "movement": "walk",
       "legs": "4",
@@ -482,7 +482,7 @@
   {
     "animal": "Penguin",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "ice",
       "movement": "swim",
       "legs": "2",
@@ -498,7 +498,7 @@
   {
     "animal": "Seal",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "sea",
       "movement": "swim",
       "legs": "0",
@@ -514,7 +514,7 @@
   {
     "animal": "Monkey",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "forrest",
       "movement": "walk",
       "legs": "2",
@@ -530,7 +530,7 @@
   {
     "animal": "Deer",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "forrest",
       "movement": "walk",
       "legs": "4",
@@ -578,7 +578,7 @@
   {
     "animal": "Turtle",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "lake",
       "movement": "swim",
       "legs": "4",
@@ -594,7 +594,7 @@
   {
     "animal": "Antelope",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "fields/savanna",
       "movement": "walk",
       "legs": "4",
@@ -610,7 +610,7 @@
   {
     "animal": "Elephant",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "fields/savanna",
       "movement": "walk",
       "legs": "4",
@@ -658,7 +658,7 @@
   {
     "animal": "Crocodile",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "lake",
       "movement": "swim",
       "legs": "4",
@@ -706,7 +706,7 @@
   {
     "animal": "Frog",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "lake",
       "movement": "swim",
       "legs": "4",
@@ -722,7 +722,7 @@
   {
     "animal": "Beaver",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "lake",
       "movement": "swim",
       "legs": "4",
@@ -738,7 +738,7 @@
   {
     "animal": "Duck",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "lake",
       "movement": "swim",
       "legs": "2",
@@ -754,7 +754,7 @@
   {
     "animal": "Whale",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "sea",
       "movement": "swim",
       "legs": "0",
@@ -770,7 +770,7 @@
   {
     "animal": "Dolphin",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "sea",
       "movement": "swim",
       "legs": "0",
@@ -786,7 +786,7 @@
   {
     "animal": "Jellyfish",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "sea",
       "movement": "swim",
       "legs": "many",
@@ -818,7 +818,7 @@
   {
     "animal": "Wasp",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "forrest",
       "movement": "fly",
       "legs": "many",
@@ -850,7 +850,7 @@
   {
     "animal": "Camel",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "dessert",
       "movement": "walk",
       "legs": "4",
@@ -882,7 +882,7 @@
   {
     "animal": "Vulture",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "dessert",
       "movement": "fly",
       "legs": "2",
@@ -914,7 +914,7 @@
   {
     "animal": "Chameleon",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "forrest",
       "movement": "walk",
       "legs": "4",
@@ -930,7 +930,7 @@
   {
     "animal": "Donkey",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "farm",
       "movement": "walk",
       "legs": "4",
@@ -946,7 +946,7 @@
   {
     "animal": "Lizard",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "dessert",
       "movement": "walk",
       "legs": "4",
@@ -962,7 +962,7 @@
   {
     "animal": "Reindeer",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "ice",
       "movement": "walk",
       "legs": "4",
@@ -978,7 +978,7 @@
   {
     "animal": "Butterfly",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "fields/savanna",
       "movement": "fly",
       "legs": "many",
@@ -1010,7 +1010,7 @@
   {
     "animal": "Mountain Goat",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "mountains",
       "movement": "walk",
       "legs": "4",
@@ -1026,7 +1026,7 @@
   {
     "animal": "Ostrich",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "fields/savanna",
       "movement": "walk",
       "legs": "2",
@@ -1042,7 +1042,7 @@
   {
     "animal": "Panda",
     "properties": {
-      "active_time": "daywalker",
+      "active_time": "diurnal",
       "habitat": "forrest",
       "movement": "walk",
       "legs": "4",

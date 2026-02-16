@@ -13,7 +13,7 @@ let gameMode = 'computer'; // 'computer' or 'player'
 // Property to image mapping
 const propertyImageMapping = {
   active_time: {
-    daywalker: 'active_daywalker.png',
+    diurnal: 'active_daywalker.png',
     nocturnal: 'active_nocturnal.png'
   },
   habitat: {
