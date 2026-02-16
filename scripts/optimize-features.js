@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const inputDir = path.join(__dirname, '../img/features');
-const outputDir = path.join(__dirname, '../src/public/img/features');
+const outputDir = path.join(__dirname, '../docs/img/features');
 
 // Create output directory if it doesn't exist
 if (!fs.existsSync(outputDir)) {

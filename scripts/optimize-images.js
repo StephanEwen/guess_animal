@@ -16,7 +16,7 @@ try {
 
 // Configuration
 const SOURCE_DIR = path.join(__dirname, '../img/animals');
-const OUTPUT_DIR = path.join(__dirname, '../src/public/img/animals');
+const OUTPUT_DIR = path.join(__dirname, '../docs/img/animals');
 const TARGET_SIZE = 280; // pixels (2x display size for retina)
 
 async function optimizeImages() {

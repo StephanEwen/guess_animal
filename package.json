@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A kid-friendly German-language browser game where the computer picks an animal and reveals properties one by one",
   "scripts": {
-    "start": "npx serve src/public",
+    "start": "npx serve docs",
     "optimize-images": "node scripts/optimize-images.js",
     "optimize-features": "node scripts/optimize-features.js"
   },
