@@ -13,12 +13,12 @@ const propertyImageMapping = {
     nocturnal: 'active_nocturnal.png'
   },
   habitat: {
-    'fields/savanna': 'habitat_field_savanna.png',
+    ice: 'habitat_polar.png',
     sea: 'habitat_sea.png',
-    forrest: 'habitat_forest_jungle.png',
     mountains: 'habitat_mointains.png',
     lake: 'habitat_lake_river.png',
-    ice: 'habitat_polar.png',
+    forrest: 'habitat_forest_jungle.png',
+    'fields/savanna': 'habitat_field_savanna.png',
     dessert: 'habitat_desert.png',
     farm: 'habitat_farm.png'
   },
