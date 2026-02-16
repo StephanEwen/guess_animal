@@ -5,8 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rate das Tier!</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js"></script>
 </head>
 <body>
+  <div class="language-toggle" id="language-toggle-container">
+    <span class="flag" title="Deutsch">🇩🇪</span>
+    <label class="toggle-switch">
+      <input type="checkbox" id="language-toggle">
+      <span class="toggle-slider"></span>
+    </label>
+    <span class="flag" title="English">🇬🇧</span>
+  </div>
+  <script>
+    // Parse flag emojis with Twemoji for cross-platform support
+    if (typeof twemoji !== 'undefined') {
+      twemoji.parse(document.getElementById('language-toggle-container'), {
+        folder: 'svg',
+        ext: '.svg'
+      });
+    }
+  </script>
+
   <div class="game-container">
     <div class="header-row">
       <h1 id="title">Rate das Tier!</h1>
@@ -39,8 +58,8 @@
   <!-- Modal for Player 1 to select animal -->
   <div id="select-animal-modal" class="modal hidden">
     <div class="modal-content">
-      <h2>Spieler 1: Wähle ein Tier!</h2>
-      <p class="modal-subtitle">Zeige es nicht Spieler 2!</p>
+      <h2 id="select-animal-title">Spieler 1: Wähle ein Tier!</h2>
+      <p id="select-animal-hint" class="modal-subtitle">Zeige es nicht Spieler 2!</p>
       <div id="select-animal-grid">
         <!-- Animal images will be inserted here -->
       </div>

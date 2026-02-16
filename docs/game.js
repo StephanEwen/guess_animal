@@ -1,7 +1,11 @@
 // Game State
 let animals = [];
 let translations = null;
+let translationsDE = null;
+let translationsEN = null;
+let currentLanguage = 'de'; // 'de' or 'en'
 let currentAnimal = null;
+let lastGuessCorrect = null; // track if last guess was correct for language switching
 let revealedProperties = [];
 let remainingProperties = [];
 let gameMode = 'computer'; // 'computer' or 'player'
@@ -115,6 +119,12 @@ let modeComputerBtn;
 let modePlayerBtn;
 let selectAnimalModal;
 let selectAnimalGrid;
+let languageToggle;
+let titleElement;
+let modalTitle;
+let playAgainText;
+let selectAnimalTitle;
+let selectAnimalHint;
 
 // Initialize game
 async function init() {
@@ -134,16 +144,26 @@ async function init() {
   modePlayerBtn = document.getElementById('mode-player-btn');
   selectAnimalModal = document.getElementById('select-animal-modal');
   selectAnimalGrid = document.getElementById('select-animal-grid');
+  languageToggle = document.getElementById('language-toggle');
+  titleElement = document.getElementById('title');
+  modalTitle = document.getElementById('modal-title');
+  playAgainText = document.getElementById('play-again-text');
+  selectAnimalTitle = document.getElementById('select-animal-title');
+  selectAnimalHint = document.getElementById('select-animal-hint');
 
   try {
-    const [animalsRes, translationsRes] = await Promise.all([
+    const [animalsRes, translationsDERes, translationsENRes] = await Promise.all([
       fetch('data/animals.json'),
-      fetch('data/translations.json')
+      fetch('data/translations.json'),
+      fetch('data/translations_en.json')
     ]);
     animals = await animalsRes.json();
-    translations = await translationsRes.json();
+    translationsDE = await translationsDERes.json();
+    translationsEN = await translationsENRes.json();
+    translations = translationsDE;
 
     setupEventListeners();
+    updateUILabels();
     startNewGame();
   } catch (error) {
     console.error('Failed to load game data:', error);
@@ -183,8 +203,45 @@ function setupEventListeners() {
     }
   });
 
+  // Language toggle
+  languageToggle.addEventListener('change', function() {
+    currentLanguage = languageToggle.checked ? 'en' : 'de';
+    translations = currentLanguage === 'en' ? translationsEN : translationsDE;
+    updateUILabels();
+    updateDisplayedProperties();
+  });
+
   // Don't allow closing player select modal by clicking outside
   // Player must select an animal to continue
+}
+
+function updateUILabels() {
+  titleElement.textContent = translations.ui.title;
+  guessBtn.textContent = translations.ui.guess;
+  nextBtn.textContent = translations.ui.nextProperty;
+  modalTitle.textContent = translations.ui.selectAnimal;
+  playAgainText.textContent = translations.ui.playAgain;
+  modeComputerBtn.textContent = translations.ui.computerPicks;
+  modePlayerBtn.textContent = translations.ui.playerPicks;
+  selectAnimalTitle.textContent = translations.ui.player1Select;
+  selectAnimalHint.textContent = translations.ui.player1Hint;
+
+  // Update result overlay if visible
+  if (currentAnimal && !resultOverlay.classList.contains('hidden')) {
+    const animalName = translations.animals[currentAnimal.animal] || currentAnimal.animal;
+    correctAnimalName.textContent = animalName;
+    if (lastGuessCorrect !== null) {
+      resultText.textContent = lastGuessCorrect ? translations.ui.correct : translations.ui.wrong;
+    }
+  }
+}
+
+function updateDisplayedProperties() {
+  // Re-render all currently displayed properties with new language
+  propertiesContainer.innerHTML = '';
+  revealedProperties.forEach(function(property) {
+    renderProperty(property);
+  });
 }
 
 function shuffleArray(array) {
@@ -202,6 +259,7 @@ function startNewGame() {
   currentAnimal = null;
   revealedProperties = [];
   remainingProperties = [];
+  lastGuessCorrect = null;
 
   // Hide buttons initially
   guessBtn.classList.add('hidden');
@@ -394,6 +452,7 @@ function handleGuess(guessedAnimal) {
   animalModal.classList.add('hidden');
 
   const isCorrect = guessedAnimal === currentAnimal.animal;
+  lastGuessCorrect = isCorrect;
   const animalName = translations.animals[currentAnimal.animal] || currentAnimal.animal;
 
   // Reset the correct animal display

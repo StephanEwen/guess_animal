@@ -135,6 +135,10 @@
     "correct": "Richtig!",
     "wrong": "Leider falsch! Es war:",
     "playAgain": "Klicke um nochmal zu spielen",
-    "selectAnimal": "Welches Tier ist es?"
+    "selectAnimal": "Welches Tier ist es?",
+    "computerPicks": "Computer wählt",
+    "playerPicks": "Spieler wählt",
+    "player1Select": "Spieler 1: Wähle ein Tier!",
+    "player1Hint": "Zeige es nicht Spieler 2!"
   }
 }
