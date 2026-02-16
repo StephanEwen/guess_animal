@@ -1,0 +1,1074 @@
+[
+  {
+    "animal": "Horse",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "fields/savanna",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": ["plain", "spotted", "multicolored"],
+      "speed": "fast",
+      "aggressiveness": "calm",
+      "food": "herbivore",
+      "head": "plain",
+      "size": "tall"
+    }
+  },
+  {
+    "animal": "Zebra",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "fields/savanna",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "striped",
+      "speed": "fast",
+      "aggressiveness": "calm",
+      "food": "herbivore",
+      "head": "plain",
+      "size": "tall"
+    }
+  },
+  {
+    "animal": "Cow",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "farm",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": ["spotted", "multicolored"],
+      "speed": "slow",
+      "aggressiveness": "calm",
+      "food": "herbivore",
+      "head": "horns",
+      "size": "tall"
+    }
+  },
+  {
+    "animal": "Octopus",
+    "properties": {
+      "active_time": "nocturnal",
+      "habitat": "sea",
+      "movement": "swim",
+      "legs": "many",
+      "skin_type": "skin",
+      "skin_pattern": "plain",
+      "speed": "moderate",
+      "aggressiveness": "aggressive",
+      "food": "carnivore",
+      "head": "cephalopod",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Dog",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "fields/savanna",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": ["plain", "spotted", "multicolored"],
+      "speed": "fast",
+      "aggressiveness": "calm",
+      "food": "omnivore",
+      "head": "plain",
+      "size": "moderate"
+    }
+  },
+  {
+    "animal": "Cat",
+    "properties": {
+      "active_time": "nocturnal",
+      "habitat": "fields/savanna",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": ["plain", "spotted", "striped", "multicolored"],
+      "speed": "fast",
+      "aggressiveness": "calm",
+      "food": "carnivore",
+      "head": "plain",
+      "size": "moderate"
+    }
+  },
+  {
+    "animal": "Lion",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "fields/savanna",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "plain",
+      "speed": "fast",
+      "aggressiveness": "aggressive",
+      "food": "carnivore",
+      "head": "plain",
+      "size": "tall"
+    }
+  },
+  {
+    "animal": "Tiger",
+    "properties": {
+      "active_time": "nocturnal",
+      "habitat": "forrest",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "striped",
+      "speed": "fast",
+      "aggressiveness": "aggressive",
+      "food": "carnivore",
+      "head": "plain",
+      "size": "tall"
+    }
+  },
+  {
+    "animal": "Rhinoceros",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "fields/savanna",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "skin",
+      "skin_pattern": "plain",
+      "speed": "moderate",
+      "aggressiveness": "aggressive",
+      "food": "herbivore",
+      "head": "horns",
+      "size": "tall"
+    }
+  },
+  {
+    "animal": "Peacock",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "fields/savanna",
+      "movement": "walk",
+      "legs": "2",
+      "skin_type": "feathers",
+      "skin_pattern": "multicolored",
+      "speed": "slow",
+      "aggressiveness": "calm",
+      "food": "omnivore",
+      "head": "beak",
+      "size": "moderate"
+    }
+  },
+  {
+    "animal": "Fish",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "lake",
+      "movement": "swim",
+      "legs": "0",
+      "skin_type": "scales",
+      "skin_pattern": ["spotted", "striped", "multicolored"],
+      "speed": "fast",
+      "aggressiveness": "calm",
+      "food": "carnivore",
+      "head": "plain",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Snail",
+    "properties": {
+      "active_time": "nocturnal",
+      "habitat": "forrest",
+      "movement": "crouch",
+      "legs": "0",
+      "skin_type": "skin",
+      "skin_pattern": "plain",
+      "speed": "slow",
+      "aggressiveness": "calm",
+      "food": "herbivore",
+      "head": ["cephalopod", "proboscis"],
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Snake",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "forrest",
+      "movement": "crouch",
+      "legs": "0",
+      "skin_type": "scales",
+      "skin_pattern": ["plain", "striped", "spotted"],
+      "speed": "moderate",
+      "aggressiveness": "aggressive",
+      "food": "carnivore",
+      "head": "plain",
+      "size": "moderate"
+    }
+  },
+  {
+    "animal": "Songbird",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "forrest",
+      "movement": "fly",
+      "legs": "2",
+      "skin_type": "feathers",
+      "skin_pattern": ["plain", "multicolored"],
+      "speed": "fast",
+      "aggressiveness": "calm",
+      "food": "omnivore",
+      "head": "beak",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Bird of Prey",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "mountains",
+      "movement": "fly",
+      "legs": "2",
+      "skin_type": "feathers",
+      "skin_pattern": "plain",
+      "speed": "fast",
+      "aggressiveness": "aggressive",
+      "food": "carnivore",
+      "head": "beak",
+      "size": "moderate"
+    }
+  },
+  {
+    "animal": "Giraffe",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "fields/savanna",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "spotted",
+      "speed": "moderate",
+      "aggressiveness": "calm",
+      "food": "herbivore",
+      "head": "horns",
+      "size": "tall"
+    }
+  },
+  {
+    "animal": "Shark",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "sea",
+      "movement": "swim",
+      "legs": "0",
+      "skin_type": "scales",
+      "skin_pattern": "plain",
+      "speed": "fast",
+      "aggressiveness": "aggressive",
+      "food": "carnivore",
+      "head": "plain",
+      "size": "tall"
+    }
+  },
+  {
+    "animal": "Rabbit",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "fields/savanna",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": ["plain", "spotted", "multicolored"],
+      "speed": "moderate",
+      "aggressiveness": "calm",
+      "food": "herbivore",
+      "head": "plain",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Sheep",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "farm",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "plain",
+      "speed": "slow",
+      "aggressiveness": "calm",
+      "food": "herbivore",
+      "head": "plain",
+      "size": "moderate"
+    }
+  },
+  {
+    "animal": "Squirrel",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "forrest",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "plain",
+      "speed": "fast",
+      "aggressiveness": "calm",
+      "food": "herbivore",
+      "head": "plain",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Chicken",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "farm",
+      "movement": "walk",
+      "legs": "2",
+      "skin_type": "feathers",
+      "skin_pattern": ["plain", "spotted", "multicolored"],
+      "speed": "slow",
+      "aggressiveness": "calm",
+      "food": "omnivore",
+      "head": "beak",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Pig",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "farm",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "skin",
+      "skin_pattern": ["plain", "spotted"],
+      "speed": "moderate",
+      "aggressiveness": "calm",
+      "food": "omnivore",
+      "head": "plain",
+      "size": "moderate"
+    }
+  },
+  {
+    "animal": "Wild boar",
+    "properties": {
+      "active_time": "nocturnal",
+      "habitat": "forrest",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "plain",
+      "speed": "fast",
+      "aggressiveness": "aggressive",
+      "food": "omnivore",
+      "head": "plain",
+      "size": "moderate"
+    }
+  },
+  {
+    "animal": "Mole",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "fields/savanna",
+      "movement": "dig",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "plain",
+      "speed": "slow",
+      "aggressiveness": "calm",
+      "food": "carnivore",
+      "head": "plain",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Spider",
+    "properties": {
+      "active_time": "nocturnal",
+      "habitat": "forrest",
+      "movement": "walk",
+      "legs": "many",
+      "skin_type": "skin",
+      "skin_pattern": "plain",
+      "speed": "moderate",
+      "aggressiveness": "calm",
+      "food": "carnivore",
+      "head": "plain",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Fly",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "fields/savanna",
+      "movement": "fly",
+      "legs": "many",
+      "skin_type": "skin",
+      "skin_pattern": "plain",
+      "speed": "fast",
+      "aggressiveness": "calm",
+      "food": "omnivore",
+      "head": "proboscis",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Owl",
+    "properties": {
+      "active_time": "nocturnal",
+      "habitat": "forrest",
+      "movement": "fly",
+      "legs": "2",
+      "skin_type": "feathers",
+      "skin_pattern": "spotted",
+      "speed": "fast",
+      "aggressiveness": "aggressive",
+      "food": "carnivore",
+      "head": "beak",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Mouse",
+    "properties": {
+      "active_time": "nocturnal",
+      "habitat": "fields/savanna",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "plain",
+      "speed": "fast",
+      "aggressiveness": "calm",
+      "food": "omnivore",
+      "head": "plain",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Brown Bear",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "forrest",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "plain",
+      "speed": "moderate",
+      "aggressiveness": "aggressive",
+      "food": "omnivore",
+      "head": "plain",
+      "size": "tall"
+    }
+  },
+  {
+    "animal": "Polar Bear",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "ice",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "plain",
+      "speed": "moderate",
+      "aggressiveness": "aggressive",
+      "food": "carnivore",
+      "head": "plain",
+      "size": "tall"
+    }
+  },
+  {
+    "animal": "Penguin",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "ice",
+      "movement": "swim",
+      "legs": "2",
+      "skin_type": "feathers",
+      "skin_pattern": "plain",
+      "speed": "moderate",
+      "aggressiveness": "calm",
+      "food": "carnivore",
+      "head": "beak",
+      "size": "moderate"
+    }
+  },
+  {
+    "animal": "Seal",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "sea",
+      "movement": "swim",
+      "legs": "0",
+      "skin_type": "fur",
+      "skin_pattern": "spotted",
+      "speed": "fast",
+      "aggressiveness": "calm",
+      "food": "carnivore",
+      "head": "plain",
+      "size": "moderate"
+    }
+  },
+  {
+    "animal": "Monkey",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "forrest",
+      "movement": "walk",
+      "legs": "2",
+      "skin_type": "fur",
+      "skin_pattern": "plain",
+      "speed": "moderate",
+      "aggressiveness": "calm",
+      "food": "omnivore",
+      "head": "plain",
+      "size": "moderate"
+    }
+  },
+  {
+    "animal": "Deer",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "forrest",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "plain",
+      "speed": "fast",
+      "aggressiveness": "calm",
+      "food": "herbivore",
+      "head": "horns",
+      "size": "moderate"
+    }
+  },
+  {
+    "animal": "Hedgehog",
+    "properties": {
+      "active_time": "nocturnal",
+      "habitat": "fields/savanna",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "spikes",
+      "skin_pattern": "plain",
+      "speed": "slow",
+      "aggressiveness": "calm",
+      "food": "omnivore",
+      "head": "plain",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Armadillo",
+    "properties": {
+      "active_time": "nocturnal",
+      "habitat": "dessert",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "hardened",
+      "skin_pattern": "plain",
+      "speed": "moderate",
+      "aggressiveness": "calm",
+      "food": "omnivore",
+      "head": "plain",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Turtle",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "lake",
+      "movement": "swim",
+      "legs": "4",
+      "skin_type": "hardened",
+      "skin_pattern": "plain",
+      "speed": "slow",
+      "aggressiveness": "calm",
+      "food": "omnivore",
+      "head": "beak",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Antelope",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "fields/savanna",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "plain",
+      "speed": "fast",
+      "aggressiveness": "calm",
+      "food": "herbivore",
+      "head": "horns",
+      "size": "moderate"
+    }
+  },
+  {
+    "animal": "Elephant",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "fields/savanna",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "skin",
+      "skin_pattern": "plain",
+      "speed": "moderate",
+      "aggressiveness": "calm",
+      "food": "herbivore",
+      "head": "proboscis",
+      "size": "tall"
+    }
+  },
+  {
+    "animal": "Hippo",
+    "properties": {
+      "active_time": "nocturnal",
+      "habitat": "lake",
+      "movement": "swim",
+      "legs": "4",
+      "skin_type": "skin",
+      "skin_pattern": "plain",
+      "speed": "moderate",
+      "aggressiveness": "aggressive",
+      "food": "herbivore",
+      "head": "plain",
+      "size": "tall"
+    }
+  },
+  {
+    "animal": "Worm",
+    "properties": {
+      "active_time": "nocturnal",
+      "habitat": "fields/savanna",
+      "movement": "crouch",
+      "legs": "0",
+      "skin_type": "skin",
+      "skin_pattern": "plain",
+      "speed": "slow",
+      "aggressiveness": "calm",
+      "food": "herbivore",
+      "head": "plain",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Crocodile",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "lake",
+      "movement": "swim",
+      "legs": "4",
+      "skin_type": "hardened",
+      "skin_pattern": "plain",
+      "speed": "slow",
+      "aggressiveness": "aggressive",
+      "food": "carnivore",
+      "head": "plain",
+      "size": "tall"
+    }
+  },
+  {
+    "animal": "Crab",
+    "properties": {
+      "active_time": "nocturnal",
+      "habitat": "sea",
+      "movement": "walk",
+      "legs": "many",
+      "skin_type": "hardened",
+      "skin_pattern": "plain",
+      "speed": "slow",
+      "aggressiveness": "calm",
+      "food": "omnivore",
+      "head": "plain",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Porcupine",
+    "properties": {
+      "active_time": "nocturnal",
+      "habitat": "forrest",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "spikes",
+      "skin_pattern": "plain",
+      "speed": "slow",
+      "aggressiveness": "calm",
+      "food": "herbivore",
+      "head": "plain",
+      "size": "moderate"
+    }
+  },
+  {
+    "animal": "Frog",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "lake",
+      "movement": "swim",
+      "legs": "4",
+      "skin_type": "skin",
+      "skin_pattern": "plain",
+      "speed": "fast",
+      "aggressiveness": "calm",
+      "food": "carnivore",
+      "head": "plain",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Beaver",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "lake",
+      "movement": "swim",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "plain",
+      "speed": "moderate",
+      "aggressiveness": "calm",
+      "food": "herbivore",
+      "head": "plain",
+      "size": "moderate"
+    }
+  },
+  {
+    "animal": "Duck",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "lake",
+      "movement": "swim",
+      "legs": "2",
+      "skin_type": "feathers",
+      "skin_pattern": "multicolored",
+      "speed": "moderate",
+      "aggressiveness": "calm",
+      "food": "omnivore",
+      "head": "beak",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Whale",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "sea",
+      "movement": "swim",
+      "legs": "0",
+      "skin_type": "skin",
+      "skin_pattern": "plain",
+      "speed": "slow",
+      "aggressiveness": "calm",
+      "food": "carnivore",
+      "head": "plain",
+      "size": "tall"
+    }
+  },
+  {
+    "animal": "Dolphin",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "sea",
+      "movement": "swim",
+      "legs": "0",
+      "skin_type": "skin",
+      "skin_pattern": "plain",
+      "speed": "fast",
+      "aggressiveness": "calm",
+      "food": "carnivore",
+      "head": "plain",
+      "size": "moderate"
+    }
+  },
+  {
+    "animal": "Jellyfish",
+    "properties": {
+      "active_time": "nocturnal",
+      "habitat": "sea",
+      "movement": "swim",
+      "legs": "many",
+      "skin_type": "skin",
+      "skin_pattern": "plain",
+      "speed": "slow",
+      "aggressiveness": "aggressive",
+      "food": "carnivore",
+      "head": "cephalopod",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Skunk",
+    "properties": {
+      "active_time": "nocturnal",
+      "habitat": "forrest",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "striped",
+      "speed": "moderate",
+      "aggressiveness": "calm",
+      "food": "omnivore",
+      "head": "plain",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Wasp",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "forrest",
+      "movement": "fly",
+      "legs": "many",
+      "skin_type": "hardened",
+      "skin_pattern": "striped",
+      "speed": "fast",
+      "aggressiveness": "aggressive",
+      "food": "omnivore",
+      "head": "proboscis",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Badger",
+    "properties": {
+      "active_time": "nocturnal",
+      "habitat": "forrest",
+      "movement": "dig",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "striped",
+      "speed": "moderate",
+      "aggressiveness": "calm",
+      "food": "omnivore",
+      "head": "plain",
+      "size": "moderate"
+    }
+  },
+  {
+    "animal": "Camel",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "dessert",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "plain",
+      "speed": "slow",
+      "aggressiveness": "calm",
+      "food": "herbivore",
+      "head": "plain",
+      "size": "tall"
+    }
+  },
+  {
+    "animal": "Scorpion",
+    "properties": {
+      "active_time": "nocturnal",
+      "habitat": "dessert",
+      "movement": "walk",
+      "legs": "many",
+      "skin_type": "hardened",
+      "skin_pattern": "plain",
+      "speed": "moderate",
+      "aggressiveness": "aggressive",
+      "food": "carnivore",
+      "head": "plain",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Vulture",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "dessert",
+      "movement": "fly",
+      "legs": "2",
+      "skin_type": "feathers",
+      "skin_pattern": "plain",
+      "speed": "moderate",
+      "aggressiveness": "calm",
+      "food": "carnivore",
+      "head": "beak",
+      "size": "moderate"
+    }
+  },
+  {
+    "animal": "Bat",
+    "properties": {
+      "active_time": "nocturnal",
+      "habitat": "forrest",
+      "movement": "fly",
+      "legs": "2",
+      "skin_type": "fur",
+      "skin_pattern": "plain",
+      "speed": "fast",
+      "aggressiveness": "calm",
+      "food": "carnivore",
+      "head": "plain",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Chameleon",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "forrest",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "scales",
+      "skin_pattern": ["spotted", "multicolored"],
+      "speed": "slow",
+      "aggressiveness": "calm",
+      "food": "carnivore",
+      "head": "plain",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Donkey",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "farm",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "plain",
+      "speed": "moderate",
+      "aggressiveness": "calm",
+      "food": "herbivore",
+      "head": "plain",
+      "size": "moderate"
+    }
+  },
+  {
+    "animal": "Lizard",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "dessert",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "scales",
+      "skin_pattern": "plain",
+      "speed": "moderate",
+      "aggressiveness": "calm",
+      "food": "carnivore",
+      "head": "plain",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Reindeer",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "ice",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "plain",
+      "speed": "fast",
+      "aggressiveness": "calm",
+      "food": "herbivore",
+      "head": "horns",
+      "size": "tall"
+    }
+  },
+  {
+    "animal": "Butterfly",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "fields/savanna",
+      "movement": "fly",
+      "legs": "many",
+      "skin_type": "skin",
+      "skin_pattern": "multicolored",
+      "speed": "slow",
+      "aggressiveness": "calm",
+      "food": "herbivore",
+      "head": "proboscis",
+      "size": "small"
+    }
+  },
+  {
+    "animal": "Fox",
+    "properties": {
+      "active_time": "nocturnal",
+      "habitat": "forrest",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "plain",
+      "speed": "fast",
+      "aggressiveness": "calm",
+      "food": "omnivore",
+      "head": "plain",
+      "size": "moderate"
+    }
+  },
+  {
+    "animal": "Mountain Goat",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "mountains",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "plain",
+      "speed": "moderate",
+      "aggressiveness": "calm",
+      "food": "herbivore",
+      "head": "horns",
+      "size": "moderate"
+    }
+  },
+  {
+    "animal": "Ostrich",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "fields/savanna",
+      "movement": "walk",
+      "legs": "2",
+      "skin_type": "feathers",
+      "skin_pattern": "plain",
+      "speed": "fast",
+      "aggressiveness": "calm",
+      "food": "omnivore",
+      "head": "beak",
+      "size": "tall"
+    }
+  },
+  {
+    "animal": "Panda",
+    "properties": {
+      "active_time": "daywalker",
+      "habitat": "forrest",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "multicolored",
+      "speed": "slow",
+      "aggressiveness": "calm",
+      "food": "herbivore",
+      "head": "plain",
+      "size": "tall"
+    }
+  },
+  {
+    "animal": "Wolf",
+    "properties": {
+      "active_time": "nocturnal",
+      "habitat": "forrest",
+      "movement": "walk",
+      "legs": "4",
+      "skin_type": "fur",
+      "skin_pattern": "plain",
+      "speed": "fast",
+      "aggressiveness": "aggressive",
+      "food": "carnivore",
+      "head": "plain",
+      "size": "moderate"
+    }
+  }
+]

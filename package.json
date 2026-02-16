@@ -1,0 +1,13 @@
+{
+  "name": "guess-animal",
+  "version": "1.0.0",
+  "description": "A kid-friendly German-language browser game where the computer picks an animal and reveals properties one by one",
+  "scripts": {
+    "start": "npx serve src/public",
+    "optimize-images": "node scripts/optimize-images.js",
+    "optimize-features": "node scripts/optimize-features.js"
+  },
+  "dependencies": {
+    "sharp": "^0.34.5"
+  }
+}

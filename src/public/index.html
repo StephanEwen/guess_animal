@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rate das Tier!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="header-row">
+      <h1 id="title">Rate das Tier!</h1>
+      <div class="mode-buttons">
+        <button id="mode-computer-btn" class="mode-btn active">Computer wählt</button>
+        <button id="mode-player-btn" class="mode-btn">Spieler wählt</button>
+      </div>
+    </div>
+
+    <div id="properties-container">
+      <!-- Properties will be displayed here -->
+    </div>
+
+    <div id="button-container">
+      <button id="guess-btn" class="game-btn guess-btn">Raten</button>
+      <button id="next-btn" class="game-btn next-btn">Nächste Eigenschaft</button>
+    </div>
+  </div>
+
+  <!-- Modal for guessing animal -->
+  <div id="animal-modal" class="modal hidden">
+    <div class="modal-content">
+      <h2 id="modal-title">Welches Tier ist es?</h2>
+      <div id="animal-grid">
+        <!-- Animal images will be inserted here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for Player 1 to select animal -->
+  <div id="select-animal-modal" class="modal hidden">
+    <div class="modal-content">
+      <h2>Spieler 1: Wähle ein Tier!</h2>
+      <p class="modal-subtitle">Zeige es nicht Spieler 2!</p>
+      <div id="select-animal-grid">
+        <!-- Animal images will be inserted here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Result overlay -->
+  <div id="result-overlay" class="overlay hidden">
+    <canvas id="fireworks-canvas"></canvas>
+    <div id="result-content">
+      <div id="result-emoji"></div>
+      <div id="result-text"></div>
+      <div id="correct-animal" class="hidden">
+        <img id="correct-animal-img" src="" alt="">
+        <div id="correct-animal-name"></div>
+      </div>
+      <div id="play-again-text">Klicke um nochmal zu spielen</div>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
