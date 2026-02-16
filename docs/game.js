@@ -251,7 +251,7 @@ function openPlayerSelectPopup() {
     const animalName = translations.animals[animal.animal] || animal.animal;
 
     const img = document.createElement('img');
-    img.src = '/img/animals/' + getAnimalImage(animal.animal);
+    img.src = 'img/animals/' + getAnimalImage(animal.animal);
     img.alt = animalName;
     img.onerror = function() {
       // Replace image with text placeholder
@@ -330,7 +330,7 @@ function renderProperty(property) {
 
     const img = document.createElement('img');
     img.className = 'property-image';
-    img.src = '/img/features/' + propertyImageMapping[property][value];
+    img.src = 'img/features/' + propertyImageMapping[property][value];
     img.alt = translations.values[value] || value;
     container.appendChild(img);
 
@@ -368,7 +368,7 @@ function openGuessPopup() {
     const animalName = translations.animals[animal.animal] || animal.animal;
 
     const img = document.createElement('img');
-    img.src = '/img/animals/' + getAnimalImage(animal.animal);
+    img.src = 'img/animals/' + getAnimalImage(animal.animal);
     img.alt = animalName;
     img.onerror = function() {
       // Replace image with text placeholder
@@ -404,7 +404,7 @@ function handleGuess(guessedAnimal) {
   }
 
   // Set up image with fallback
-  correctAnimalImg.src = '/img/animals/' + getAnimalImage(currentAnimal.animal);
+  correctAnimalImg.src = 'img/animals/' + getAnimalImage(currentAnimal.animal);
   correctAnimalImg.alt = animalName;
   correctAnimalImg.onerror = function() {
     correctAnimalImg.style.display = 'none';
