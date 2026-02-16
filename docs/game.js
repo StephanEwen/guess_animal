@@ -17,7 +17,7 @@ const propertyImageMapping = {
     sea: 'habitat_sea.png',
     forrest: 'habitat_forest_jungle.png',
     mountains: 'habitat_mointains.png',
-    lake: 'habitat_lake_or_field.png',
+    lake: 'habitat_lake_river.png',
     ice: 'habitat_polar.png',
     dessert: 'habitat_desert.png',
     farm: 'habitat_farm.png'
